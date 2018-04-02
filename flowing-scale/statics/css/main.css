@@ -1,0 +1,134 @@
+﻿html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    font-size: 100px;
+    background-color: #FFF;
+    font-family: "微软雅黑", "宋体", Arial;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    -webkit-text-size-adjust: none;
+    user-select: none;
+    -webkit-user-select: none
+}
+
+body {
+    background: #0a407e url(../images/bg.png) repeat;
+    background-size: 100% 100%;
+    font-size: 16px
+}
+
+ul,
+p {
+    margin: 0;
+    padding: 0
+}
+
+ol,
+li {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: #7d89a7
+}
+
+body {
+    background-image: url(../images/bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.m-container {
+    padding: 1rem 0.6rem 0.51rem 0.7rem;
+    box-sizing: border-box;
+    height: 100%
+}
+.hide {
+    display: none !important
+}
+
+i.icon-legend-colony{
+    width: 1em;
+    height: 1em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/icon/legend-colony.png")
+}
+
+i.icon-legend-warning{
+    width: 1em;
+    height: 1em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/icon/legend-warning.png")
+}
+
+i.icon-legend-trouble{
+    width: 1em;
+    height: 1em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/icon/legend-trouble.png")
+}
+.m-container {
+    position: relative
+}
+
+[data-page="main"] {
+    background-image: url(../images/canvas/bg.png)
+}
+
+[data-page="main"] .sideinfo {
+    position: absolute
+}
+
+[data-page="main"] .sideinfo ul,
+[data-page="main"] .sideinfo li {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+[data-page="main"] .sideinfo li {
+    margin-top: 0.8rem
+}
+
+[data-page="main"] .sideinfo i {
+    width: 0.78rem;
+    height: 0.85rem;
+    float: left
+}
+
+[data-page="main"] .sideinfo .text {
+    margin-left: 0.88rem;
+    color: #FFF;
+    font-size: 0.26rem;
+    width: 5em;
+    text-align: center
+}
+
+[data-page="main"] .sideinfo em {
+    display: block;
+    font-style: normal;
+    font-size: 0.58rem;
+    margin-bottom: 0.2em
+}
+
+.bgcanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
