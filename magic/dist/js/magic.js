@@ -69,10 +69,10 @@
             dom.style.webkitAnimationDelay = delay + 'ms';
             dom.style.animationDelay = delay + 'ms';
 
-            // dom_boys[i].style.animationName = "magic-boy";
-            // dom_boys[i].style.webkitAnimationName = "magic-boy";
-            // dom_boys[i].style.webkitAnimationDelay = delay + 'ms';
-            // dom_boys[i].style.animationDelay = delay + 'ms';
+            dom_boys[i].style.animationName = "magic-boy";
+            dom_boys[i].style.webkitAnimationName = "magic-boy";
+            dom_boys[i].style.webkitAnimationDelay = delay + 'ms';
+            dom_boys[i].style.animationDelay = delay + 'ms';
         });
         event.stopPropagation();
         event.preventDefault();
