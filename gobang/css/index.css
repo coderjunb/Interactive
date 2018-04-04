@@ -1,0 +1,21 @@
+.bar {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bar a {
+    text-decoration: none;
+}
+.bar a[disabled] {
+    color: #CCC;
+}
+.info{
+    line-height: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+canvas{
+    margin: auto;
+    display: block;
+}
