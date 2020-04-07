@@ -7,18 +7,27 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        #ring1 {
-            width: 100px;
-            height: 100px;
+        #ring1,
+        #ring2,
+        #ring3 {
+            width: 300px;
+            height: 300px;
         }
     </style>
 </head>
 
 <body>
     <div id="ring1"></div>
+    <div id="ring2"></div>
+    <div id="ring3"></div>
+    <script src="ring.js"></script>
     <script src="an-ring.js"></script>
     <script>
-        scaleCanvas(document.getElementById("ring1"), .6);
+        createRingAn(document.getElementById("ring1"), .6);
+        createRingAn(document.getElementById("ring2"), .6, {
+            type: 'scale'
+        });
+        createRing(document.getElementById("ring3"), .6)
     </script>
 </body>
 

@@ -1,4 +1,4 @@
-function scaleCanvas(dom, percentage, config = {}) {
+function createRingAn(dom, percentage, config = {}) {
 
     // 刻度动画
     var canvas = document.createElement("canvas");

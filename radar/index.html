@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-use-rem="750">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+  <meta name="description" content="description" />
+  <meta name="keywords" content="a,b" />
+  <title></title>
+</head>
+
+<body ontouchstart="">
+  <canvas id="radar" style="width:200px;height:200px;"></canvas>
+  <script src="./radar.js"></script>
+  <script>
+    Radar([{
+      dot: 0, // 纬度点数 -1～2
+      rate: 0 // 纬度值 0～1 ，即百分比
+    }, {
+      dot: 1,
+      rate: 0.5
+    }, {
+      dot: 2,
+      rate: 1
+    }, {
+      dot: 0,
+      rate: 0
+    }, {
+      dot: 1,
+      rate: 0.5
+    }], {
+      speed: 0.1, // 每毫秒增加0.1像素
+      delay: 400, // 动画延迟
+      interval: 0, // 每条边动画时间间隔 - 毫秒
+      defaultAngle: 0 // 初始角度
+    });
+  </script>
+</body>
+
+</html>
